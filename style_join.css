@@ -1,0 +1,16 @@
+#join-page {
+  margin-top: 100px;
+}
+
+#join-page h2:nth-child(2) {
+  color: #6995ff;
+  text-decoration: underline;
+}
+
+#join-page .question {
+  margin-top: 30px;
+}
+
+#join-page img {
+  width: 100%;
+}

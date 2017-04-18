@@ -1,0 +1,45 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.white {
+  background-color: white;
+}
+
+.block {
+  display: block;
+}
+
+.thirty-margin {
+  margin: 30px 0;
+}
+
+nav .navbar-brand img {
+  height: 20px;
+  display: inline-block;
+}
+
+nav .navbar-right li a.social-link {
+  padding-bottom: 0px;
+  padding-top: 12px;
+  padding: 12px 20px 0 15px;
+}
+
+/* bootstrap xs */
+@media only screen and (max-width: 768px) {
+  .col-xs-0 {
+    display: none;
+  }
+}
