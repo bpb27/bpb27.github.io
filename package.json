@@ -1,0 +1,28 @@
+{
+  "name": "lesotho",
+  "version": "1.0.0",
+  "description": "lesothohpac.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpb27/lesotho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-headerfooter": "^1.0.3",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

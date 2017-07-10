@@ -1,0 +1,83 @@
+#overview-page {
+  margin-top: 100px;
+}
+
+#health-overview-toc ol {
+  padding: 3px;
+}
+
+#health-stats-data {
+  height: 96vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.hsd-section {
+  margin-bottom: 50px;
+}
+
+.hsd-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hsd-section .dropdown {
+  margin-bottom: 20px;
+}
+
+.hsd-section .dropdown button {
+  height: inherit;
+}
+
+.hsd-section .dropdown-menu li {
+  padding-left: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  color: black;
+  transition: color 0.7s ease-out;
+}
+
+.hsd-section .dropdown-menu li:hover {
+  color: #ff3d5f;
+}
+
+.key-numbers:not(:first-child) {
+  margin-top: 10px;
+}
+
+.header {
+  text-decoration: underline;
+  font-size: 1.4em;
+}
+
+.male {
+  color: #56b1ee;
+  font-size: 1.2em;
+  font-size: bold;
+}
+
+.female {
+  color: #fb8f4b;
+  font-size: 1.2em;
+  font-size: bold;
+}
+
+.highlight, .claim {
+  line-height: 1.8em;
+}
+
+.green-highlight span, span.green-highlight {
+  color: #45c553;
+  font-size: 1.2em;
+  font-size: bold;
+}
+
+.no-click-panel .panel-heading {
+  background: #505050;
+  color: #e6e6e6;
+}
+
+.no-click-panel .panel-heading a {
+  text-decoration: none;
+  cursor: default;
+}
